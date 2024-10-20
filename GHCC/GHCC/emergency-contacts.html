@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureHer</title>
+    <link rel="icon" href="WhatsApp Image 2024-09-16 at 10.43.31 PM.jpeg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="WhatsApp Image 2024-09-26 at 7.48.37 PM.jpeg" alt="SecureHer Logo">
+        </header>
+
+        <section id="contacts-section">
+            <h2>Submit Emergency Contacts</h2>
+            <form id="contactsForm">
+                <input type="tel" id="contact1" placeholder="Emergency Contact 1" required />
+                <span id="error-contact1" style="color: red; display: none;">Enter a valid 10-digit number.</span>
+                
+                <input type="tel" id="contact2" placeholder="Emergency Contact 2" required />
+                <span id="error-contact2" style="color: red; display: none;">Enter a valid 10-digit number.</span>
+                
+                <input type="tel" id="contact3" placeholder="(OPTIONAL)" />
+                <span id="error-contact3" style="color: red; display: none;"></span>
+                
+                <button type="submit">Submit Contacts</button>
+            </form>
+            
+            <section id="success-section" class="hidden">
+                <p>Thank you! Your emergency contacts have been saved.</p>
+            </section>
+        </section>
+    </div>
+
+    <script src="contacts.js"></script>
+</body>
+</html>
+
+
+

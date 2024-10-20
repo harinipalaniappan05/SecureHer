@@ -1,0 +1,32 @@
+zone_id,description,latitude,longitude,radius_km
+1,High risk of harassment,12.9716,77.5946,1
+2,Frequent incidents of assault,12.934,7.6101,0.5
+3,Chennai Central Railway Station,13.0827,80.2757,2
+4,Egmore Railway Station,13.0735,80.2606,1
+5,Koyambedu Bus Stand:,13.0696,80.2112,1
+6,Perambur,13.1145,80.2396,1
+7,Vyasarpadi,13.1187,80.2482,1
+8,Choolaimedu,13.0619,80.229,1
+9,Royapuram,13.1095,80.2939,1
+10,Gandhipuram Bus Stand,11.0189,76.9722,0.5
+11,Ukkadam Bus Stand,10.9876,76.9547,3
+12,Periyar Bus Stand,9.9252,78.1198,2
+13,Chathiram Bus Stand,10.8305,78.6856,2
+14,Villupuram Bus Stand,11.9395,79.4866,2
+15,Vellore Bus Stand,12.9143,79.1325,2
+16,"Katpadi, Vellore",12.9641,79.1387,1
+17,"Old Bus Stand, Vellore",12.9152,79.1318,1
+18,"thiruparankundram Temple Road, Madurai",9.8739,78.0802,1
+19,Melapudur,10.8086,78.6911,2
+20,Ammapet,11.675,78.1484,2
+21,Palacode,12.3083,78.0666,2
+22,Pennagaram,12.1344,77.8957,2
+23,Harur,12.0527,78.4807,2
+24,Pappireddipatti,12.3374,78.451,2
+25,Tindivanam,12.2394,79.654,2
+26,Gingee,12.2481,79.4094,2
+27,Thiruvennainallur,11.9177,79.4233,2
+28,Villianur,11.9393,79.7617,2
+29,Teynampet,13.0404,80.2503,2
+30,Thadikombu,10.35,77.958,2
+31,Peelamedu, 11.0172,76.9562

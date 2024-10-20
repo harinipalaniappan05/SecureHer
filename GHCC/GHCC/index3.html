@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation and Safety Check</title>
+    
+    <style>
+        body {
+            background-image: url('SL-120722-54400-02.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+        }
+
+        h1, h2, p {
+            color: white;
+            text-align: center;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            font-size: 18px;
+            margin: 20px; /* Add some margin for spacing */
+            background-color: rgba(40, 167, 69, 0.8); /* Semi-transparent green background */
+            color: white; /* Button text color */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Transition for hover effect */
+        }
+
+        button:hover {
+            background-color: rgba(40, 167, 69, 1); /* Solid green on hover */
+        }
+    </style>
+    <script>
+        function goToFeedback() {
+            window.location.href = 'index4.html'; // Navigate to the feedback page
+        }
+    </script>
+</head>
+<body>
+    <h1>HTML Geolocation</h1>
+    <hr>
+    <h2>Click the button to check safety.</h2>
+    <center>
+        <h4>YOU ARE IN A SAFE AREA</h4>
+    </center>
+    <hr>
+    <button onclick="goToFeedback()">Feedback Page</button>
+    <p id="demo"></p>
+</body>
+</html>

@@ -1,0 +1,229 @@
+/* Background for the body */
+body {
+    background-image: url('SL-120722-54400-02.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for content */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #93d8e6; /* Deep pink (replaced from hot pink) */
+    padding: 10px;
+    color: white;
+    font-size: 1.5rem;
+    width: 100%; /* Full width of the container */
+    height: 100px; /* Set height */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border-radius: 5px; /* Rounded edges */
+}
+
+/* Section styling */
+section {
+    margin: 20px 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+}
+
+/* Circular button styling */
+button i {
+    font-size: 24px; /* Icon size */
+}
+
+button {
+    background-color: #87cefa; /* Light sky blue */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50%; /* Circular button */
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00bfff; /* Deep sky blue */
+}
+
+/* Map styling */
+#map {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow to the map */
+}
+
+/* Tap to call section */
+.tap-to-call {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#tapArea {
+    cursor: pointer;
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    border: none; /* Remove border if any */
+    background: none; /* Remove background if any */
+}
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+/* Contact section */
+#contacts-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contacts-section input {
+    width: calc(100% - 22px); /* Adjust width for padding and border */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#contacts-section button {
+    background-color: #87cefa; /* Light sky blue */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contacts-section button:hover {
+    background-color: #00bfff; /* Deep sky blue */
+}
+
+/* Success message section */
+#success-section {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #32cd32; /* Lime green */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+header.dark-mode {
+    background-color: #ff1493; /* Deep pink */
+}
+
+button.dark-mode {
+    background-color: #4682b4; /* Steel blue */
+}
+
+button.dark-mode:hover {
+    background-color: #4169e1; /* Royal blue */
+}
+
+/* Loading spinner */
+#loading-spinner {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #ff1493; /* Deep pink */
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Accordion Styles */
+.accordion-toggle {
+    background-color: #ff1493; /* Deep pink */
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: background-color 0.4s ease;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.accordion-toggle:hover {
+    background-color: #ff69b4; /* Hot pink */
+}
+
+.accordion-content {
+    padding: 10px;
+    background-color: #f0f8ff; /* Alice blue */
+    border-top: 1px solid #ccc;
+    display: none;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+/* Assuming you have a specific class or ID for the third page */
+.index2 {
+    background-image: url('SL-120722-54400-02.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body, index2.html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
